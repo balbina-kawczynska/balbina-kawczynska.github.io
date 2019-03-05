@@ -50,12 +50,12 @@ nav ul li a {
 
 .submenu {
     flex-direction: column;
-    /* display: none; */
+    display: none;
 }
 
-/* .submenu:hover {
+.submenu:hover {
     display: flex;
-} */
+}
 
 section.banner {
     display: flex;
@@ -98,7 +98,7 @@ section.banner::after {
 
 .articles {
     margin: 50px 0;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-content: space-between;
     font-weight: 300;
